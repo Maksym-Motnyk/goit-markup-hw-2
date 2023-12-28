@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -12,16 +14,16 @@ ul {
 
 /* header */
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo-web {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -31,11 +33,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover {
-  color: #4d5ae5;
-}
+.header-menu-link:hover,
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.address-contacts-link {
+  font-style: normal;
 }
 
 .header-menu-list {
@@ -47,7 +50,7 @@ ul {
 }
 .header-menu-list:hover,
 .header-menu-list:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* Section1 */
@@ -69,10 +72,12 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+}
+.hero-section-btn:hover,
+.hero-section-btn:focus {
+  background-color: #404bbf;
 }
 
 /* Section2 */
@@ -100,7 +105,7 @@ ul {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -118,6 +123,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.photo {
+  background-color: #ffffff;
+}
 
 /* Section4 */
 .section-portfolio-title {
@@ -125,7 +133,7 @@ ul {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -149,13 +157,16 @@ ul {
   background: #2e2f42;
 }
 .footer-link {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-logo {
+  color: #f4f4fd;
 }
 .footer-paragraf {
   color: #f4f4fd;
