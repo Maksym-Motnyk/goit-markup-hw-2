@@ -1,177 +1,241 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+.about {
+  min-width: 320px;
+  max-width: 360px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 1750px;
+  margin-bottom: 80px;
 }
 
-a {
-  text-decoration: none;
+.about-container {
+  position: relative;
 }
 
-ul {
-  list-style: none;
+.about-me-photo {
+  margin-bottom: 40px;
 }
 
-/* header */
-.header-logo {
-  color: #4d5ae5;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
+.title-about {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.header-logo-web {
-  color: #2e2f42;
+  text-align: right;
+  color: #292929;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
 }
 
-.header-menu-link {
-  color: #2e2f42;
-  font-size: 16px;
+.me {
+  color: #00b068;
+}
+
+.my-photo {
+  object-fit: cover;
+}
+
+.about-image {
+  border-radius: 16px;
+}
+
+.bio {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  width: 320px;
+  height: 696px;
+}
+
+.classic-title {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  line-height: 1.5;
+  font-size: 32px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
-}
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf;
-}
-.address-contacts-link {
-  font-style: normal;
-}
-
-.header-menu-list {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.header-menu-list:hover,
-.header-menu-list:focus {
-  color: #404bbf;
-}
-
-/* Section1 */
-.hero-section {
-  background: #2e2f42;
-}
-.hero-section-title {
-  color: #fff;
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-.hero-section-btn {
-  font-family: inherit;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background: #4d5ae5;
-  cursor: pointer;
-}
-.hero-section-btn:hover,
-.hero-section-btn:focus {
-  background-color: #404bbf;
-}
-
-/* Section2 */
-.section-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.section-text {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-/* Section3 */
-.team {
-  background: #f4f4fd;
-}
-.team-title {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.team-title-list {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.team-title-item {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.team-title-list {
-  background-color: #ffffff;
-}
-
-/* Section4 */
-.section-portfolio-title {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.section-portfolio-list {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.section-portfolio-item {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* Footer */
-.footer {
-  background: #2e2f42;
-}
-.footer-link {
-  color: #4d5ae5;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #292929;
 }
-.footer-logo {
-  color: #f4f4fd;
+
+.text-wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  height: 624px;
+  width: 320px;
 }
-.footer-paragraf {
-  color: #f4f4fd;
+
+.text-style {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  color: #292929;
+  display: flex;
+}
+
+.edu-role-mod::before {
+  display: inline-block;
+  content: "";
+  border-radius: 1px;
+  width: 4px;
+  height: 4px;
+  background: #00b068;
+  transform: rotate(-180deg);
+  line-height: 24px;
+  margin: 10px;
+}
+
+.text-mod1 {
+}
+
+.text-mod2 {
+}
+
+.content-wrap {
+  width: 320px;
+}
+
+.education {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  height: 288px;
+}
+
+.education-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  height: 216px;
+}
+
+.role {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  height: 168px;
+}
+
+.role-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  height: 96px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-me {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin: 0 auto;
+    height: 1264px;
+    margin-bottom: 124px;
+  }
+
+  .title-about {
+    font-size: 108px;
+    line-height: 1.14815;
+    letter-spacing: 0.02em;
+  }
+
+  .my-photo {
+    border-radius: 16px;
+    width: 336px;
+    height: 392px;
+    position: absolute;
+    top: 532px;
+  }
+
+  .bio {
+    margin-left: auto;
+    margin-bottom: 140px;
+    width: 336px;
+    height: 680px;
+  }
+
+  .classic-title {
+    font-size: 36px;
+    line-height: 1.33333;
+    letter-spacing: 0.01em;
+  }
+
+  .text-wrap {
+    width: 336px;
+    height: 600px;
+  }
+
+  .content-wrap {
+    width: 704px;
+    height: 280px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .education {
+    width: 336px;
+    height: 280px;
+  }
+
+  .role {
+    width: 336px;
+    height: 184px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-me {
+    max-width: 1280px;
+    height: 1244px;
+  }
+
+  .bio {
+    width: 488px;
+    height: 488px;
+    margin-bottom: 312px;
+  }
+
+  .text-wrap {
+    width: 488px;
+    height: 408px;
+  }
+
+  .content-wrap {
+    width: 904px;
+    height: 280px;
+    gap: 136px;
+    position: absolute;
+    top: 964px;
+    left: 208px;
+  }
+
+  .my-photo {
+    border-radius: 16px;
+    width: 384px;
+    height: 448px;
+    position: absolute;
+    top: 436px;
+    left: 208px;
+  }
 }
